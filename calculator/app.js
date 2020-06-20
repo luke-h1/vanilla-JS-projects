@@ -1,2 +1,2 @@
 const calculator = document.querySelector('calculator');
-const keys = calculator.querySelector('.calculator-keys');
+const keys = calculator.querySelector('calculator-keys');
