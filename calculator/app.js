@@ -14,7 +14,7 @@ const calculate = (n1, operator, n2) => {
 };
 
 const calculator = document.querySelector('.calculator');
-const display = calculator.innerHTML('.calculator_display'); // BROKEN 
+const display = calculator.querySelector('.calculator_display'); // FIXED 
 const keys = calculator.querySelector('.calculator-keys');
 
 
